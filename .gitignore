@@ -123,12 +123,3 @@ package-lock.json
 
 # 运行时文件夹
 run/
-
-# sequelize 的数据库配置信息
-database/config.json
-
-# 临时屏蔽
-.travis.yml
-appveyor.yml
-.github/workflows/nodejs.yml
-jsconfig.json
