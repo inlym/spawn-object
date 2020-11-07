@@ -1,6 +1,6 @@
 {
 	"name": "spawn-object",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "辅助 TableStore 插入行操作的工具函数，能够将大对象拆分为仅包含单个属性对象的列表",
 	"main": "index.js",
 	"scripts": {
@@ -11,11 +11,11 @@
 		"url": "git+https://github.com/inlym/spawn-object.git"
 	},
 	"keywords": [
-		"object",
-		"utils",
 		"inlym",
 		"tablestore",
-		"ots"
+		"aliyun",
+		"ots",
+		"aliyun-tablestore"
 	],
 	"author": "inlym",
 	"license": "MIT",
@@ -24,7 +24,7 @@
 	},
 	"homepage": "https://github.com/inlym/spawn-object#readme",
 	"dependencies": {
-		"tablestore": "^5.0.7",
+		"int64-buffer": "^1.0.0",
 		"typeasy": "^1.0.0"
 	}
 }
